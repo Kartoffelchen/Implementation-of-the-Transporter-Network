@@ -4,6 +4,6 @@ This is the specific repo for documentation of my syudent thesis, which is based
 1. literature review
 2. implement the TransporterNetwork both in simulation environment and on real robot
 3. xxxx
-# Reading codes of TN
- ->demo.py
+# Confision about TN codes
+ ->demo.py  
    ->act = agent.act
