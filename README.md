@@ -11,13 +11,17 @@ The instruction to install miniconda from the link above doesnt work. I didnt fi
 *#Setup Ubuntu*  
 sudo apt update --yes  
 sudo apt upgrade --yes  
+
 *#Get Miniconda and make it the main Python interpreter*  
 wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda.sh  
 bash ~/miniconda.sh -b -p ~/miniconda  
 echo "PATH=$PATH:$HOME/miniconda/bin" >> .bashrc  
 sourch /.bashrc  
 rm ~/miniconda.sh  
+
 *#Directory related should be dependent upon your own settings, change it when necessary accordingly.*  
+
+After the installation of miniconda, the next steps from the link above(ravens) work well(from Step 2 on).  
 
 ## environment/environment.py  
 + class Environment(gym.Env), inherit from gym.Env  
