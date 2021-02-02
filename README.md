@@ -22,7 +22,6 @@ rm ~/miniconda.sh
 *#Directory related should be dependent upon your own settings, change it when necessary accordingly.*  
 
 After the installation of miniconda, the next steps from the link above(ravens) work well (from Step 2 on).  
- It see
 In Step 2, *sudo apt-get install -y gcc libgl1-mesa-dev*, this command doesnt work. It seems that this command must be done with root authority.
 
 ## environment/environment.py  
