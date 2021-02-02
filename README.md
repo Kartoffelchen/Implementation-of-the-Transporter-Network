@@ -4,6 +4,7 @@ This is the specific repo for documentation of my syudent thesis, which is based
 1. literature review
 2. implement the TransporterNetwork both in simulation environment and on real robot
 3. xxxx
-# Confision about TN codes
+# Reading TN codes
+The link to TN code:https://github.com/google-research/ravens
 demo.py  
   act = agent.act(obs,info)
