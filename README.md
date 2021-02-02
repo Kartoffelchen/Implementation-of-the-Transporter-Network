@@ -6,6 +6,19 @@ This is the specific repo for documentation of my syudent thesis, which is based
 3. xxxx
 # Reading TN codes
 The link to TN codes: https://github.com/google-research/ravens  
+## one important thing to mention
+The instruction to install miniconda from the link above doesn`t work. I didn`t find the reason. But i did find another way to install miniconda.
+#Setup Ubuntu
+sudo apt update --yes
+sudo apt upgrade --yes
+#Get Miniconda and make it the main Python interpreter
+wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda.sh
+bash ~/miniconda.sh -b -p ~/miniconda
+echo "PATH=$PATH:$HOME/miniconda/bin" >> .bashrc
+sourch /.bashrc
+rm ~/miniconda.sh
+#Directory related should be dependent upon your own settings, change it when necessary accordingly.
+
 ## environment/environment.py  
 + class Environment(gym.Env), inherit from gym.Env  
 + color_tuple/ depth_tuple/ self.observation_space = gym.spaces.Dict()/  self.position_bounds = gym.spaces.Box()/ self.action_space = gym.spaces.Dict()
