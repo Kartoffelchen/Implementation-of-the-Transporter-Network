@@ -7,7 +7,7 @@ This is the specific repo for documentation of my syudent thesis, which is based
 # Reading TN codes
 The link to TN codes: https://github.com/google-research/ravens  
 ## one important thing to mention  
-The instruction to install miniconda from the link above doesnt work. I didnt find the reason. But i did find another way to install miniconda.  
+The instruction to install miniconda from the link above (Step 1) doesnt work. I didnt find the reason. But i did find another way to install miniconda.  
 *#Setup Ubuntu*  
 sudo apt update --yes  
 sudo apt upgrade --yes  
@@ -21,7 +21,9 @@ rm ~/miniconda.sh
 
 *#Directory related should be dependent upon your own settings, change it when necessary accordingly.*  
 
-After the installation of miniconda, the next steps from the link above(ravens) work well(from Step 2 on).  
+After the installation of miniconda, the next steps from the link above(ravens) work well (from Step 2 on).  
+ It see
+In Step 2, *sudo apt-get install -y gcc libgl1-mesa-dev*, this command doesnt work. It seems that this command must be done with root authority.
 
 ## environment/environment.py  
 + class Environment(gym.Env), inherit from gym.Env  
