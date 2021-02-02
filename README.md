@@ -6,6 +6,9 @@ This is the specific repo for documentation of my syudent thesis, which is based
 3. xxxx
 # Reading TN codes
 The link to TN codes: https://github.com/google-research/ravens  
+## environment/environment.py  
++ class Environment(gym.Env), inherit from gym.Env  
++ 
 ## demo.py  
 + act = agent.act(obs,info)  
 + obs, reward, done, info = env.step(act)  
