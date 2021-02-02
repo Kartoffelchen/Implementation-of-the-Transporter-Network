@@ -6,4 +6,4 @@ This is the specific repo for documentation of my syudent thesis, which is based
 3. xxxx
 # Confision about TN codes
 demo.py  
-'act = agent.act(obs,info)'
+  act = agent.act(obs,info)
