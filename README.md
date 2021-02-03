@@ -32,4 +32,7 @@ In Step 2, *sudo apt-get install -y gcc libgl1-mesa-dev*, this command doesnt wo
 + obs, reward, done, info = env.step(act)  
 + reward...  
 ## transporter.py
-+ line 179: *p0_theta = argmax[2] * (2 * np.pi / pick_conf.shape[2]*. What does this shape[2] mean???
++ line 179: *p0_theta = argmax[2] * (2 * np.pi / pick_conf.shape[2]*. What does this shape[2] mean???  
+## attention.py
++ line64: *rvecs = self.vec(self.n_rotations, pivot)* What is this self.vec  
+
