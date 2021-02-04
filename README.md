@@ -53,8 +53,6 @@ And that intrinsic and extrinsic parameters of the camera also matter a lot!
 ## transporter.py
 + line 179: *p0_theta = argmax[2] * (2 * np.pi / pick_conf.shape[2]*. What does this shape[2] mean???  
 + line 173: the shape of the *pick_config* needs to be determined!  
++ line 40: *self.in_shape=(320,160,6)*. Why here is a 6??? xyz + rgb???  
 ## attention.py
 + line64: *rvecs = self.vec(self.n_rotations, pivot)* What is this self.vec  
-## transporter.py  
-+ line 40: *self.in_shape=(320,160,6)*. Why here is a 6??? xyz + rgb???
-
