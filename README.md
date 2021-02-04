@@ -55,4 +55,6 @@ And that intrinsic and extrinsic parameters of the camera also matter a lot!
 + line 173: the shape of the *pick_config* needs to be determined!  
 ## attention.py
 + line64: *rvecs = self.vec(self.n_rotations, pivot)* What is this self.vec  
+## transporter.py  
++ line 40: *self.in_shape=(320,160,6)*. Why here is a 6??? xyz + rgb???
 
