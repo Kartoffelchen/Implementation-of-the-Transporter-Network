@@ -29,7 +29,7 @@ In test.py line 107: *act = agent.act(obs,info,goal)*.
 ### obs
 obs = {'color':(),'depth':()}  
 
-#environment.py line 270~292
+#environment.py line 270~292  
 _,_,color,depth,segm = p.getCameraImage(...)  
 
 color_image_size = (config['image_size'][0], config['image_size'][1], 4)  
