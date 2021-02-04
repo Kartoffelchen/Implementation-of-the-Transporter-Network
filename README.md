@@ -41,6 +41,8 @@ zbuffer = np.array(depth).reshape(depth_image_size)
 depth = (zfar + znear - (2. * zbuffer - 1.) * (zfar - znear))  
 depth = (2. * znear * zfar) / depth  
 
+And that intrinsic and extrinsic parameters of the camera also matter a lot!  
+
 ## environment/environment.py  
 + class Environment(gym.Env), inherit from gym.Env  
 + color_tuple/ depth_tuple/ self.observation_space = gym.spaces.Dict()/  self.position_bounds = gym.spaces.Box()/ self.action_space = gym.spaces.Dict()
