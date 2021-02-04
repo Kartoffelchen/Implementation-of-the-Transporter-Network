@@ -22,7 +22,24 @@ rm ~/miniconda.sh
 *#Directory related should be dependent upon your own settings, change it when necessary accordingly.*  
 
 After the installation of miniconda, the next steps from the link above(ravens) work well (from Step 2 on).  
-In Step 2, *sudo apt-get install -y gcc libgl1-mesa-dev*, this command doesnt work. It seems that this command must be done with root authority.
+In Step 2, *sudo apt-get install -y gcc libgl1-mesa-dev*, this command doesnt work. It seems that this command must be done with root authority.  
+
+## Input and output of TN_Network(or input and output of the agent.act)
+In test.py line 107: *act = agent.act(obs,info,goal)*.  
+### obs
+obs = {'color':(),'depth':()}  
+
+#environment.py line 270~292
+_,_,color,depth,segm = p.getCameraImage(...)  
+
+color_image_size = (config['image_size'][0], config['image_size'][1], 4)  
+color = np.array(color, dtype=np.uint8).reshape(color_image_size)  
+color = color[:, :, :3]  # remove alpha channel  
+
+depth_image_size = (config['image_size'][0], config['image_size'][1])  
+zbuffer = np.array(depth).reshape(depth_image_size)  
+depth = (zfar + znear - (2. * zbuffer - 1.) * (zfar - znear))  
+depth = (2. * znear * zfar) / depth  
 
 ## environment/environment.py  
 + class Environment(gym.Env), inherit from gym.Env  
