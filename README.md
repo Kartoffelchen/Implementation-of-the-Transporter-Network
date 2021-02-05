@@ -14,9 +14,9 @@ This is the specific repo for documentation of my syudent thesis, which is based
 
 3. Hierarchical discretization and infenrence. Change the discretization and infenrence times to obtain a more precise end effector pose. 
 (In the TN paper the 360 degrees orientation angle is discretized into 36 bins, 10 degrees for each. Which means that the control error will be about 10 degrees. And calculating the network forwardly for 36 times is too inefficient...)  
-(My idea is hierarchical discretization. Firstly dicretizing 360 degrees into 6 bins, 60 degrees for each, and get the best orientation angle theta1. Then taking the (theta1-30,theta1+30) as the new discretization domain, discreting this domain1 in the 6 bins, 10 degrees for each, and get the best orientation angle theta2. Then taking the (theta2-5,theta2+5) as the new discretization domain, discreting this domain2 into 10 bins, 1 degree for each, and get the best orientation angle theta3, which is finally the true best orientation angle.)  
+(My idea is hierarchical discretization. Firstly dicretizing 360 degrees into 6 bins, 60 degrees for each, and get the best orientation angle theta1. Then taking the (theta1-30,theta1+30) as the new discretization domain, discreting this domain1 into 6 bins, 10 degrees for each, and get the best orientation angle theta2. Then taking the (theta2-5,theta2+5) as the new discretization domain, discreting this domain2 into 10 bins, 1 degree for each, and get the best orientation angle theta3, which is finally the true best orientation angle.)  
 (In the original paper, 36 times discreyization and 10 degrees accuracy. But with the method above, 22 times discretizaion and 1 degree accuracy theoratically...)  
-(Practical accuracy and efficiency need to be tested...)  
+(Practical accuracy and efficiency need to be tested, and the parameters also need to be optimized...)    
 
 4. Comparison of the results (efficiency and accuracy) of different hierarchies of discretization.  
 (Collecting pick-and-place results of the real robot based on the original TN and the uptimized TN...)  
