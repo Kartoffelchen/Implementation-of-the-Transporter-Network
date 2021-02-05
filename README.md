@@ -2,8 +2,10 @@
 This is the specific repo for documentation of my syudent thesis, which is based on TransporterNetwork. There is some opinions, confusions and ideas about the paper and codes of the TransporterNetwork.
 # Work that I need to do for my student thesis
 1. literature review
-2. implement the TransporterNetwork both in simulation environment and on real robot
-3. xxxx
+2. implement the TransporterNetwork both in simulation environment and on real robot  
+(plan is to acomplish the align-corner and the place-red-in-green. Maybe a practical pick-and-place task like food-sortng will also be implemented.)  
+3. Hierarchical discretization and infenrence. Change the discretization and infenrence times to obtain a more precise end effector pose.  
+4. Comparison of the results (efficiency and accuracy) of different hierarchies of discretization.  
 # Reading TN codes
 The link to TN codes: https://github.com/google-research/ravens  
 ## one important thing to mention  
