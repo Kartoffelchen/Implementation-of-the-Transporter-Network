@@ -22,6 +22,19 @@ This is the specific repo for documentation of my syudent thesis, which is based
 (Collecting pick-and-place results of the real robot based on the original TN and the uptimized TN...)  
 (Comparing the accuracies and efficiencies of two kinds of implementation methods...)  
 
+# Implement TN on UR5 with Photoneo camera  
+## Main structure of the project  
+### Part 1: image capture  
+To drive Photoneo camera for collecting RGB image and point cloud.  
+### Part 2: image preprocess  
+To preprocess RGB image and point cloud data before inference of Transporter Network.  
+### Part 3: pick and place poses inference
+To inference the pick and place poses of the end effector of the real robot UR5.  
+### Part 4: trajectory calculation and robot movement control  
+To convert the obtained pick and place poses into the trajectory of the robot, control the robot to do the pich-and-place task.  
+### Part 5: collect testing data for thesis
+To recording captured images and point cloud data, inference results, robot behaves for thesis.  
+
 # Reading TN codes
 The link to TN codes: https://github.com/google-research/ravens  
 ## one important thing to mention  
@@ -79,15 +92,4 @@ First element is (x,y,z),the position the end effector. And the second element i
 ## attention.py
 + line64: *rvecs = self.vec(self.n_rotations, pivot)* What is this self.vec  
 
-# Implement TN on UR5 with Photoneo camera  
-## Main structure of the project  
-### Part 1: image capture  
-To drive Photoneo camera for collecting RGB image and point cloud.  
-### Part 2: image preprocess  
-To preprocess RGB image and point cloud data before inference of Transporter Network.  
-### Part 3: pick and place poses inference
-To inference the pick and place poses of the end effector of the real robot UR5.  
-### Part 4: trajectory calculation and robot movement control  
-To convert the obtained pick and place poses into the trajectory of the robot, control the robot to do the pich-and-place task.  
-### Part 5: collect testing data for thesis
-To recording captured images and point cloud data, inference results, robot behaves for thesis.  
+
