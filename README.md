@@ -4,6 +4,7 @@ This is the specific repo for documentation of my syudent thesis, which is based
 1. literature review
 2. implement the TransporterNetwork both in simulation environment and on real robot  
 (plan is to acomplish the align-corner and the place-red-in-green. Maybe a practical pick-and-place task like food-sortng will also be implemented.)  
+(The specific task needs to be determined!)  
 3. Hierarchical discretization and infenrence. Change the discretization and infenrence times to obtain a more precise end effector pose.  
 4. Comparison of the results (efficiency and accuracy) of different hierarchies of discretization.  
 
