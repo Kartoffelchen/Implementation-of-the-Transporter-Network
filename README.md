@@ -71,7 +71,7 @@ To drive Photoneo camera for collecting RGB image and point cloud
 To preprocess RGB image and point cloud data before inference of Transporter Network  
 ### Part 3: pick and place poses inference
 To inference the pick and place poses of the end effector of the real robot UR5  
-### Part 4: trajectory calculation and robot movement contrl  
+### Part 4: trajectory calculation and robot movement control  
 To convert the obtained pick and place poses into the trajectory of the robot, control the robot to do the pich-and-place task.  
 ### Part 5: collect testing data for thesis
 To recording captured images and point cloud data, inference results, robot behaves for thesis.  
