@@ -1,5 +1,5 @@
 # Implementation of TransporterNetwork
-This is the specific repo for documentation of my syudent thesis, which is based on TransporterNetwork. There is some opinions, confusions and ideas about the paper and codes of the TransporterNetwork.
+This is the specific repo for documentation of my syudent thesis, which is based on TransporterNetwork. There are some opinions, confusions and ideas about the paper and codes of the TransporterNetwork.
 # Tasks for my student thesis
 1. literature review
 2. implement the TransporterNetwork both in simulation environment and on real robot  
