@@ -6,6 +6,7 @@ This is the specific repo for documentation of my syudent thesis, which is based
 (plan is to acomplish the align-corner and the place-red-in-green. Maybe a practical pick-and-place task like food-sortng will also be implemented.)  
 3. Hierarchical discretization and infenrence. Change the discretization and infenrence times to obtain a more precise end effector pose.  
 4. Comparison of the results (efficiency and accuracy) of different hierarchies of discretization.  
+
 # Reading TN codes
 The link to TN codes: https://github.com/google-research/ravens  
 ## one important thing to mention  
@@ -49,7 +50,6 @@ And that intrinsic and extrinsic parameters of the camera also matter a lot!
 The form of them is like ((x,x,x),(x,x,x,x)).
 First element is (x,y,z),the position the end effector. And the second element is (x,y,z,w), quaternion form to represent rotation angle, the orientation angel of the end effector. 
 
-
 ## environment/environment.py  
 + class Environment(gym.Env), inherit from gym.Env  
 + color_tuple/ depth_tuple/ self.observation_space = gym.spaces.Dict()/  self.position_bounds = gym.spaces.Box()/ self.action_space = gym.spaces.Dict()
@@ -63,14 +63,15 @@ First element is (x,y,z),the position the end effector. And the second element i
 + line 40: *self.in_shape=(320,160,6)*. Why here is a 6??? xyz + rgb???  
 ## attention.py
 + line64: *rvecs = self.vec(self.n_rotations, pivot)* What is this self.vec  
+
 # Implement TN on UR5 with Photoneo camera  
 ## Main structure of the project  
 ### Part 1: image capture  
-To drive Photoneo camera for collecting RGB image and point cloud  
+To drive Photoneo camera for collecting RGB image and point cloud.  
 ### Part 2: image preprocess  
-To preprocess RGB image and point cloud data before inference of Transporter Network  
+To preprocess RGB image and point cloud data before inference of Transporter Network.  
 ### Part 3: pick and place poses inference
-To inference the pick and place poses of the end effector of the real robot UR5  
+To inference the pick and place poses of the end effector of the real robot UR5.  
 ### Part 4: trajectory calculation and robot movement control  
 To convert the obtained pick and place poses into the trajectory of the robot, control the robot to do the pich-and-place task.  
 ### Part 5: collect testing data for thesis
