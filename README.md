@@ -1,5 +1,9 @@
 # Implementation of TransporterNetwork
 This is the specific repo for documentation of my syudent thesis, which is based on TransporterNetwork. There are some opinions, confusions and ideas about the paper and codes of the TransporterNetwork.
+
+The link to TN codes: https://github.com/google-research/ravens   
+The link to TN paper: https://arxiv.org/pdf/2010.14406.pdf  
+
 # Tasks for my student thesis
 1. literature review
 (Researching papers related to robot manipulation based on vision, reinfoecement learning in robotics,pick-and-place...)  
