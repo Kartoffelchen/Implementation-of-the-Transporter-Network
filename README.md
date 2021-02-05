@@ -43,6 +43,11 @@ depth = (2. * znear * zfar) / depth
 
 And that intrinsic and extrinsic parameters of the camera also matter a lot!  
 
+### pick_pose and place pose  
+The form of them is like ((x,x,x),(x,x,x,x)).
+First element is (x,y,z),the position the end effector. And the second element is (x,y,z,w), quaternion form to represent rotation angle, the orientation angel of the end effector. 
+
+
 ## environment/environment.py  
 + class Environment(gym.Env), inherit from gym.Env  
 + color_tuple/ depth_tuple/ self.observation_space = gym.spaces.Dict()/  self.position_bounds = gym.spaces.Box()/ self.action_space = gym.spaces.Dict()
