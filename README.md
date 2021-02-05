@@ -2,11 +2,25 @@
 This is the specific repo for documentation of my syudent thesis, which is based on TransporterNetwork. There are some opinions, confusions and ideas about the paper and codes of the TransporterNetwork.
 # Tasks for my student thesis
 1. literature review
+(Researching papers related to robot manipulation based on vision, reinfoecement learning in robotics,pick-and-place...)  
+(Researching latest methods to manipulate robot and grasp, having an overview of this filed...)  
+(Generally comparing the pose-based grasping methods and vision-based manipulation mathods...)  
+(Briefly introducing the core idea and method of the Transporter Networks...)
+
 2. implement the TransporterNetwork both in simulation environment and on real robot  
 (plan is to acomplish the align-corner and the place-red-in-green. Maybe a practical pick-and-place task like food-sortng will also be implemented.)  
 (The specific task needs to be determined!)  
-3. Hierarchical discretization and infenrence. Change the discretization and infenrence times to obtain a more precise end effector pose.  
+(Main challenge will be the difference between the synthetic image from simulation environment and the real RGB image from practical environment captured by a real camera Photoneo, which will definitely cause errors of inference...)    
+
+3. Hierarchical discretization and infenrence. Change the discretization and infenrence times to obtain a more precise end effector pose. 
+(In the TN paper the 360 degrees orientation angle is discretized into 36 bins, 10 degrees for each. Which means that the control error will be about 10 degrees. And calculating the network forwardly for 36 times is too inefficient...)  
+(My idea is hierarchical discretization. Firstly dicretizing 360 degrees into 6 bins, 60 degrees for each, and get the best orientation angle theta1. Then taking the (theta1-30,theta1+30) as the new discretization domain, discreting this domain1 in the 6 bins, 10 degrees for each, and get the best orientation angle theta2. Then taking the (theta2-5,theta2+5) as the new discretization domain, discreting this domain2 into 10 bins, 1 degree for each, and get the best orientation angle theta3, which is finally the true best orientation angle.)  
+(In the original paper, 36 times discreyization and 10 degrees accuracy. But with the method above, 22 times discretizaion and 1 degree accuracy theoratically...)  
+(Practical accuracy and efficiency need to be tested...)  
+
 4. Comparison of the results (efficiency and accuracy) of different hierarchies of discretization.  
+(Collecting pick-and-place results of the real robot based on the original TN and the uptimized TN...)  
+(Comparing the accuracies and efficiencies of two kinds of implementation methods...)  
 
 # Reading TN codes
 The link to TN codes: https://github.com/google-research/ravens  
