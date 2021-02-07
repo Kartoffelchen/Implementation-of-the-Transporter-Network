@@ -39,6 +39,33 @@ To convert the obtained pick and place poses into the trajectory of the robot, c
 ### Part 5: collect testing data for thesis
 To recording captured images and point cloud data, inference results, robot behaves for thesis.  
 
+## Levels of different hierarchies of discretization:  
+1. original discretization in the paper  
+   [36], 36 bins in total, accuracy is 10 degrees.    
+2. [6,6,10]  
+   ->6 bins,60 d  
+   ->6 bins,10 d  
+   ->10 bins,1 d  
+   ->22 bins in total, acc is 1 degree  
+3.[4,9,10]  
+   ->4 bins, 90 d  
+   ->9 bins, 10 d  
+   ->10 bins, 1 d  
+   ->23 bins in total, acc is 1d  
+4.[4,3,3,5]
+   ->4 bins, 90 d  
+   ->3 bins, 30 d  
+   ->3 bins, 10 d  
+   ->5 bins, 2 d  
+   ->15 bins in total, acc is 2 d  
+5.[4,3,3,10]     
+   ->4 bins, 90 d  
+   ->3 bins, 30 d  
+   ->3 bins, 10 d   
+   ->10 bins, 1 d 
+   ->20 bins in total, acc is 1 d
+
+
 # Reading TN codes
 The link to TN codes: https://github.com/google-research/ravens  
 ## one important thing to mention  
