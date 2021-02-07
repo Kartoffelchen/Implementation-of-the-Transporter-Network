@@ -11,7 +11,7 @@ The link to TN paper: https://arxiv.org/pdf/2010.14406.pdf
 (Generally comparing the pose-based grasping methods and vision-based manipulation mathods...)  
 (Briefly introducing the core idea and method of the Transporter Networks...)
 
-2. implement the TransporterNetwork both in simulation environment and on real robot  
+2. implement the TransporterNetwork on real robots  
 (plan is to acomplish the align-corner and the place-red-in-green. Maybe a practical pick-and-place task like food-sortng will also be implemented.)  
 (The specific task needs to be determined!)  
 (Main challenge will be the difference between the synthetic image from simulation environment and the real RGB image from practical environment captured by a real camera Photoneo, which will definitely cause errors of inference...)    
