@@ -73,7 +73,7 @@ To recording captured images and point cloud data, inference results, robot beha
    ->20 bins in total, acc is 1 d
 
 
-# Reading TN codes
+# Reading and analyzing TN codes
 The link to TN codes: https://github.com/google-research/ravens  
 ## one important thing to mention  
 The instruction to install miniconda from the link above (Step 1) doesnt work. I didnt find the reason. But i did find another way to install miniconda.  
