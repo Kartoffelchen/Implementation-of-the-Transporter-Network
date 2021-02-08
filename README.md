@@ -59,7 +59,7 @@ To recording captured images and point cloud data, inference results, robot beha
    ->9 bins, 10 d  
    ->10 bins, 1 d  
    ->23 bins in total, acc is 1d  
-6.[4,3,3,5]
+6.[4,3,3,5]  
    ->4 bins, 90 d  
    ->3 bins, 30 d  
    ->3 bins, 10 d  
