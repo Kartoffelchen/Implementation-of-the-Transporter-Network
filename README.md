@@ -41,14 +41,14 @@ To recording captured images and point cloud data, inference results, robot beha
 
 ## Levels of different hierarchies of discretization:  
 1. original discretization in the paper, 36 bins in total, accuracy is 10 degrees.    
-   [36]
-   ->36 bins,10d
-2.[9,4]
-   ->9 bins,40d
-   ->4 bins,10d
-3.[9,10]
-   ->9 bins,40d
-   ->10 bins,4d
+   [36]  
+   ->36 bins,10d  
+2.[9,4]  
+   ->9 bins,40d  
+   ->4 bins,10d  
+3.[9,10]  
+   ->9 bins,40d  
+   ->10 bins,4d  
 4.[6,6,10]  
    ->6 bins,60 d  
    ->6 bins,10 d  
