@@ -41,8 +41,13 @@ Pick-and-place tasks
 Related optimization methods
 Sim2Real-related problems
 
-# Reconstruct Ravens' structure for new models' training  
+# Pipeline for new models' training  
 Pipeline for new models' training and reconstruction of the Simulation environment Ravens  
+## Pipeline for new models' training  
+1. new task description => shampoo_rearrange.py  
+params: max_steps = 3, goal = [],   
+func: __init__(), add_shampoo_model(), add_shampoo_fixture()    
+models: shampoo.urdf, shampoo_fixture.urdf
 
 # Implement TN on UR5 with Photoneo camera  
 ## Main structure of the project  
