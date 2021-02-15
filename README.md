@@ -23,7 +23,7 @@ The link to TN paper: https://arxiv.org/pdf/2010.14406.pdf
 (Practical accuracy and efficiency need to be tested, and the parameters also need to be optimized...)    
 
 4. Investigation on the validity of the discretization assumption by theoretical or simulative means  
-(Research theoretical model of hierarchical discretization)
+(Research theoretical model of hierarchical discretization)  
 (Theoratical model + simulative means)
 
 5. Comparison of the results (efficiency and accuracy) of different hierarchies of discretization.  
