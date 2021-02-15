@@ -22,7 +22,11 @@ The link to TN paper: https://arxiv.org/pdf/2010.14406.pdf
 (In the original paper, 36 times discreyization and 10 degrees accuracy. But with the method above, 22 times discretizaion and 1 degree accuracy theoratically...)  
 (Practical accuracy and efficiency need to be tested, and the parameters also need to be optimized...)    
 
-4. Comparison of the results (efficiency and accuracy) of different hierarchies of discretization.  
+4. Investigation on the validity of the discretization assumption by theoretical or simulative means  
+(Research theoretical model of hierarchical discretization)
+(Theoratical model + simulative means)
+
+5. Comparison of the results (efficiency and accuracy) of different hierarchies of discretization.  
 (Collecting pick-and-place results of the real robot based on the original TN and the uptimized TN...)  
 (Comparing the accuracies and efficiencies of two kinds of implementation methods...)  
 
