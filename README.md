@@ -41,6 +41,9 @@ Pick-and-place tasks
 Related optimization methods
 Sim2Real-related problems
 
+# Reconstruct Ravens' structure for new models' training  
+Pipeline for new models' training and reconstruction of the Simulation environment Ravens  
+
 # Implement TN on UR5 with Photoneo camera  
 ## Main structure of the project  
 ### Part 1: image capture  
