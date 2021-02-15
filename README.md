@@ -30,6 +30,17 @@ The link to TN paper: https://arxiv.org/pdf/2010.14406.pdf
 (Collecting pick-and-place results of the real robot based on the original TN and the uptimized TN...)  
 (Comparing the accuracies and efficiencies of two kinds of implementation methods...)  
 
+# Introduction  
+Introduction to Transporter Networks  
+Introduction to hierarchical discretization  
+Introduction to the deploying process and practical problems  
+
+# Related works
+Visual-based manipulation(parameterize robot actions)  
+Pick-and-place tasks
+Related optimization methods
+Sim2Real-related problems
+
 # Implement TN on UR5 with Photoneo camera  
 ## Main structure of the project  
 ### Part 1: image capture  
