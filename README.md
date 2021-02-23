@@ -37,8 +37,8 @@ Introduction to the deploying process and practical problems
 
 # Related works
 Visual-based manipulation(parameterize robot actions)  
-Pick-and-place tasks
-Related optimization methods
+Pick-and-place tasks  
+Related optimization methods  
 Sim2Real-related problems
 
 # Pipeline for new models' training  
