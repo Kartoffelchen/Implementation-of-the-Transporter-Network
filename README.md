@@ -33,7 +33,8 @@ The link to TN paper: https://arxiv.org/pdf/2010.14406.pdf
 # Introduction  
 Introduction to Transporter Networks  
 Introduction to hierarchical discretization  
-Introduction to the deploying process and practical problems  
+Introduction to dataset generation and training models in simulation environment  
+Introduction to testing process and practical problems in real environment  
 
 # Related works
 Visual-based manipulation(parameterize robot actions)  
