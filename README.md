@@ -36,7 +36,7 @@ Introduction to Transporter Networks
 Introduction to hierarchical discretization  
 *二分法的原理、应用、特点等等，以及扩展到k分法，k分法的原理特点等等*  
 Introduction to dataset generation and training models in simulation environment  
-*简单介绍在PyBullet的环境中生成数据集，以及新模型的训练过程*  
+*简单介绍在PyBullet的环境中生成数据集，以及新模型的训练过程。关键一点是SIM2REAL的相关设置设计，背景的色彩的选择，相机模型参数的设定(SIM中和REAL的参数设置成)*  
 Introduction to testing process and practical problems in real environment  
 *在仿真环境中训练的模型，拿到实际机器人上面测试，基本流程，实际问题等*  
 
